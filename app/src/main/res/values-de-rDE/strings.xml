@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WordBox</string>
+    <string name="add_word">Neues Wort hinzufügen</string>
+    <string name="new_word_hint">Schreiben Sie hier ein neues Wort</string>
+    <string name="new_word_prop_hint">Schreiben Sie hier Wortarten</string>
+    <string name="new_word_lang_hint">Schreiben Sie hier die Sprache</string>
+    <string name="new_word_mean_hint">Schreiben Sie hier eine neue Wortbedeutung</string>
+    <string name="save_new_word_button">Neues Wort speichern</string>
+    <string name="change_word_button">Wort ändern</string>
+    <string name="what_does_it_mean">Was bedeutet es gegebenes Wort unten</string>
+    <string name="write_answer_hint">Schreiben Sie die Antwort hier</string>
+    <string name="check_answer">Überprüfe deine Antwort</string>
+    <string name="solve_puzzle">Löse das Worträtsel</string>
+    <string name="see_puzzle">Um das Puzzle zu sehen, tippen Sie bitte hier.</string>
+    <string name="add_lang">Sprache hinzufügen</string>
+    <string name="word_adp">Wort</string>
+    <string name="word_prop_adp">Teile der Rede</string>
+    <string name="word_mean_adp">"Bedeutung "</string>
+    <string name="word_lang_adp">" Sprache "</string>
+    <string name="card_congratz">Herzliche Glückwünsche</string>
+    <string name="card_wrongAnswer">Falsche Antwort</string>
+    <string name="pressExit">"Drücken Sie zum Beenden Zurück "</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Die Einstellungen </string>
+    <string name="puzzle_notify">"Puzzle-Benachrichtigung "</string>
+</resources>

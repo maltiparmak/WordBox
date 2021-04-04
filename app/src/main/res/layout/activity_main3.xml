@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".activity.MainActivity3"
+    android:background="@color/mybackgroundcolor">
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:onClick="save_new_word"
+        android:text="@string/save_new_word_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/wordmeanText"
+        app:layout_constraintTop_toBottomOf="@+id/wordmeanText" />
+
+    <Button
+        android:id="@+id/changebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="change_word"
+        android:text="@string/change_word_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/savebutton" />
+
+    <EditText
+        android:id="@+id/wordnameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint="@string/new_word_hint"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/lang_name_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/wordmeanText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/new_word_mean_hint"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/savebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wordnameText" />
+
+
+    <EditText
+        android:id="@+id/lang_name_text"
+        android:layout_width="416dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:hint="@string/new_word_lang_hint"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/savebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wordnameText" />
+
+    <EditText
+        android:id="@+id/wordProp_Text"
+        android:layout_width="413dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="@string/new_word_prop_hint"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/lang_name_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wordnameText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

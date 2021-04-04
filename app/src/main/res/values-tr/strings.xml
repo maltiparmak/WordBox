@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WordBox</string>
+    <string name="add_word">Yeni Sözcük Ekle</string>
+    <string name="new_word_hint">Yeni sözcüğü buraya yaz.</string>
+    <string name="new_word_prop_hint">Sözcük türünü buraya yaz.</string>
+    <string name="new_word_lang_hint">Dili buraya yaz.</string>
+    <string name="new_word_mean_hint">Sözcüğün anlamını buraya yaz.</string>
+    <string name="save_new_word_button">Sözcüğü Kaydet</string>
+    <string name="change_word_button">Sözcüğü Değiştir</string>
+    <string name="what_does_it_mean">Aşağıdaki sözcük ne anlama geliyor ?</string>
+    <string name="write_answer_hint">Cevabını buraya yaz.</string>
+    <string name="check_answer">Cevabı Kontrol Et</string>
+    <string name="solve_puzzle">Kelime bulmacası çöz.</string>
+    <string name="see_puzzle">Bulmacayı görmek için buraya dokun.</string>
+    <string name="add_lang">Dil ekle</string>
+    <string name="word_adp">Sözcük</string>
+    <string name="word_prop_adp">Sözcük Türü</string>
+    <string name="word_mean_adp">Anlamı</string>
+    <string name="word_lang_adp">Dil</string>
+    <string name="card_congratz">Tebrikler!</string>
+    <string name="card_wrongAnswer">Yanlış Cevap!</string>
+    <string name="pressExit">Çıkmak  için bir kez daha geri tuşuna basın</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Ayarlar</string>
+    <string name="puzzle_notify">Bulmaca Bildirimleri</string>
+</resources>

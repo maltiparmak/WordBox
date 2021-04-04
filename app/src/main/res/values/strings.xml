@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WordBox</string>
+    <string name="channel_name" translatable="false">NotifyChannel</string>
+    <string name="channel_description" translatable="false">NotifyChannelDescription</string>
+
+    <string name="add_word">Add New Word</string>
+    <string name="new_word_hint">Write new word here</string>
+    <string name="new_word_prop_hint">Write parts of speech here </string>
+    <string name="new_word_lang_hint">Write language here</string>
+    <string name="new_word_mean_hint">Write new word meaning here</string>
+    <string name="save_new_word_button">Save New Word</string>
+    <string name="change_word_button">Change Word</string>
+    <string name="what_does_it_mean">What is the meaning of the word given below?</string>
+    <string name="write_answer_hint">Write The Answer Here</string>
+    <string name="check_answer">Check Your Answer</string>
+    <string name="solve_puzzle">Solve The Word Puzzle</string>
+    <string name="see_puzzle">To see the puzzle please tap here.</string>
+    <string name="add_lang">Add Language</string>
+    <string name="word_adp">Word</string>
+    <string name="word_prop_adp">Parts of Speech</string>
+    <string name="word_mean_adp">Meaning</string>
+    <string name="word_lang_adp">Language</string>
+    <string name="card_congratz">Congratulations</string>
+    <string name="card_wrongAnswer">Wrong  Answer</string>
+    <string name="pressExit">Press Back To Exit</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Settings</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="puzzle_notify">Word Puzzle Notification</string>
+
+</resources>

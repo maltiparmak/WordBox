@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity4"
+    android:background="@color/mybackgroundcolor"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_does_it_mean"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+
+
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/correctTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="30sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editTextAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/write_answer_hint"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:layout_marginBottom="50dp"
+                >
+
+            </EditText>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+<Button
+    android:id="@+id/checkButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/check_answer"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center"
+
+    />
+
+
+
+</LinearLayout>
